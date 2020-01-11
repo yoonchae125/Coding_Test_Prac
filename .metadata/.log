@@ -647,3 +647,18 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-07 23:46:42.167
 !MESSAGE executing callback sts4.classpath.KXbFYZYj SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-07 23:56:19.032
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KXbFYZYj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-07 23:56:19.032
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.KXbFYZYj
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-07 23:56:19.032
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-07 23:56:19.033
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KXbFYZYj => OK
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-01-07 23:56:20.469
+!MESSAGE The workspace will exit with unsaved changes in this session.
