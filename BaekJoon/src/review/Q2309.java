@@ -1,10 +1,9 @@
-package code_plus.부르트_포스;
+package review;
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
-public class 일곱_난쟁이_2309 {
-
+public class Q2309 {
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int height[] = new int[9];
@@ -26,6 +25,7 @@ public class 일곱_난쟁이_2309 {
 				}
 			}
 		}
+		
 	}
 
 }
