@@ -21,7 +21,7 @@ public class Q2309 {
 							continue;
 						System.out.println(height[k]);
 					}
-					System.exit(0);
+					System.exit(0); //요거 해줘야함 
 				}
 			}
 		}
