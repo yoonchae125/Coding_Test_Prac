@@ -1,8 +1,8 @@
-package code_plus.다이나믹_프로그래밍;
+package review;
 
 import java.util.Scanner;
 
-public class 스티커_9465 {
+public class Q9465 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -24,6 +24,7 @@ public class 스티커_9465 {
 			long ans = 0;
             ans = Math.max(d[n][0], Math.max(d[n][1], d[n][2]));
             System.out.println(ans);
+		
 		}
 	}
 

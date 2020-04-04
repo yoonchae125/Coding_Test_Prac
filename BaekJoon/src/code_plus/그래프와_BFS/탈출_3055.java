@@ -1,9 +1,9 @@
 package code_plus.그래프와_BFS;
 
 import java.util.*;
-class Pair {
+class Pair11 {
     int x, y;
-    Pair(int x, int y) {
+    Pair11(int x, int y) {
         this.x = x;
         this.y = y;
     }
@@ -26,12 +26,12 @@ public class 탈출_3055 {
                 d[i][j] = -1;
             }
         }
-        Queue<Pair> q = new LinkedList<Pair>();
+        Queue<Pair11> q = new LinkedList<Pair11>();
         int sx=0,sy=0,ex=0,ey=0;
         for (int i=0; i<n; i++) {
             for (int j=0; j<m; j++) {
                 if (a[i].charAt(j) == '*') {
-                    q.offer(new Pair(i, j));
+                    q.offer(new Pair11(i, j));
                     water[i][j] = 0;
                 } else if (a[i].charAt(j) == 'S') {
                     sx = i;
@@ -43,7 +43,7 @@ public class 탈출_3055 {
             }
         }
         while (!q.isEmpty()) {
-            Pair p = q.remove();
+        	Pair11 p = q.remove();
             int x = p.x;
             int y = p.y;
             for (int k=0; k<4; k++) {
@@ -57,13 +57,13 @@ public class 탈출_3055 {
                 if (a[nx].charAt(ny) == 'X') continue;
                 if (a[nx].charAt(ny) == 'D') continue;
                 water[nx][ny] = water[x][y] + 1;
-                q.offer(new Pair(nx, ny));
+                q.offer(new Pair11(nx, ny));
             }
         }
-        q.offer(new Pair(sx, sy));
+        q.offer(new Pair11(sx, sy));
         d[sx][sy] = 0;
         while (!q.isEmpty()) {
-            Pair p = q.remove();
+        	Pair11 p = q.remove();
             int x = p.x;
             int y = p.y;
             for (int k=0; k<4; k++) {
@@ -77,7 +77,7 @@ public class 탈출_3055 {
                 if (water[nx][ny] != -1 && d[x][y]+1 >= water[nx][ny]) continue;
 
                 d[nx][ny] = d[x][y] + 1;
-                q.offer(new Pair(nx, ny));
+                q.offer(new Pair11(nx, ny));
             }
         }
         if (d[ex][ey] == -1) {
