@@ -11615,3 +11615,15 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-23 12:15:04.999
 !MESSAGE executing callback sts4.classpath.HFGeUdHE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-23 12:31:09.352
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HFGeUdHE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-23 12:31:09.353
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.HFGeUdHE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-23 12:31:09.353
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-04-23 12:31:09.353
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HFGeUdHE => OK
